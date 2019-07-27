@@ -1,0 +1,8 @@
+
+   <div *ngFor="let s of subsec">
+        <a [routerLink]="s" (click)="subnews(s)">{{s}}</a> 
+    </div>
+      <div *ngFor="let s1 of newslist">{{s1.title}}
+<h2>{{s1.title}} </h2><hr/> <hr><br><h4> {{s1.abstract}}</h4>
+<br>
+    </div>

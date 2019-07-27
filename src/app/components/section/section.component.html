@@ -1,0 +1,18 @@
+<p>
+section works!
+</p>
+
+ <!-- <div *ngFor="let s of sec | async">
+        <a [routerLink]="['/section/',s]" (click)="dosomething(s)">{{s}}</a> 
+ </div> -->
+ <div *ngFor="let s of sec | async">
+        <a [routerLink]="s" (click)="dosomething(s)">{{s}}</a> 
+ </div>
+  
+ <!-- <div *ngFor="let s1 of results">
+       {{s1.key}}
+ </div> 
+
+      <div *ngIf="paramname">
+      {{paramname}}
+      </div> -->
